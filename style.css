@@ -1,0 +1,86 @@
+/* Generic */
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+}
+h2 { margin-top: 0; }
+
+/* Containers */
+.container,
+.auth-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.15);
+}
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+}
+.auth-card { text-align: center; }
+
+/* Forms */
+form { margin-top: 20px; }
+.form-group { margin-bottom: 15px; text-align: left; }
+input, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea { resize: vertical; }
+
+/* Buttons & Links */
+button,
+.btn,
+.btn-small {
+    background: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-small { padding: 6px 10px; font-size: 12px; }
+.btn-secondary { background: #6c757d; }
+.danger { background: #dc3545; }
+button:hover,
+.btn:hover { opacity: .9; }
+.link { display: inline-block; margin-top: 20px; color: #007bff; }
+
+/* Habit list */
+.habit-list { list-style: none; padding: 0; }
+.habit-list li {
+    background: #fafafa;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-left: 4px solid #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.habit-actions { display: flex; gap: 6px; }
+.inline-form { display: inline; }
+
+/* Messages */
+.message {
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+.message.success { background: #d4edda; color: #155724; }
+.message.error   { background: #f8d7da; color: #721c24; }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .habit-list li { flex-direction: column; align-items: flex-start; }
+}
