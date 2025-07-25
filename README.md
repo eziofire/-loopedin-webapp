@@ -31,7 +31,7 @@ LoopedIn is a PHP-based habit tracker app built for academic projects and person
 ![Dashboard](screenshots/dashboard.jpeg)
 
 ### ➕ Create New Habit
-![Create Habit](screenshots/create_habit.jpeg)
+![Create Habit](screenshots/create_habbit.jpeg)
 
 ### 📝 Edit Habit
 ![Edit Habit](screenshots/edit_habit.jpeg)
