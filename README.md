@@ -22,6 +22,29 @@ LoopedIn is a PHP-based habit tracker app built for academic projects and person
 - Git & GitHub for version control
 
 ---
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](screenshots/login.jpeg)
+
+### 🏠 Dashboard
+![Dashboard](screenshots/dashboard.jpeg)
+
+### ➕ Create New Habit
+![Create Habit](screenshots/create_habit.jpeg)
+
+### 📝 Edit Habit
+![Edit Habit](screenshots/edit_habit.jpeg)
+
+### ❌ Delete Habit
+![Delete Habit](screenshots/delete_habit.jpeg)
+
+### 📌 Notes Section
+![Notes](screenshots/notes.jpeg)
+
+### 📈 Stats View
+![Stats](screenshots/stats.jpeg)
+
 
 ---
 ## 🚀 Setup Instructions
