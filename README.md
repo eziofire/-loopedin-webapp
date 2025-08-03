@@ -22,6 +22,15 @@ LoopedIn is a PHP-based habit tracker app built for academic projects and person
 - Git & GitHub for version control
 
 ---
+
+## 🎥 Demo Video
+
+[▶️ Watch Demo](assets/github.mp4)
+
+> Click the link above to watch a walkthrough video of the LoopedIn WebApp and see all its features in action.
+
+---
+
 ## 📸 Screenshots
 
 ### 🔐 Login Page
@@ -45,8 +54,9 @@ LoopedIn is a PHP-based habit tracker app built for academic projects and person
 ### 📈 Stats View
 ![Stats](screenshots/stats.jpeg)
 
-
 ---
+
+
 ## 🚀 Setup Instructions
 
 1. Clone this repo:
